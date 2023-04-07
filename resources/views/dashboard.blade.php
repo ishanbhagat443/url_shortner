@@ -49,7 +49,7 @@
                                             <td>{{ $row->id }}</td>
                                             <td><a class="text-blue-500 underline"
                                                     href="{{ route('shorten.link', $row->code) }}"
-                                                    target="_blank">{{ url('shlnk/' . $row->code) }}</a></td>
+                                                    target="_blank">{{ url('slk/' . $row->code) }}</a></td>
                                             <td>{{ $row->link }}</td>
                                         </tr>
                                     @endforeach
