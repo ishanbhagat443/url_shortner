@@ -6,7 +6,8 @@
 6. Install PHP dependencies: "composer install"
 7. Create new ".env" file from copying ".env.example"
 8. Generate laravel app key "php artisan key:generate"
-9. Install node dependencies: "npm install"
-10. Run command "npm run dev" to start tailwind css development.
-11. Run command "npm run build" to build for production.
-12. Run command "php artisan serve" to start php server which will run laravel.
+9. Run command "php artisan migrate" to add tables in the database
+10. Install node dependencies: "npm install"
+11. Run command "npm run dev" to start tailwind css development.
+12. Run command "npm run build" to build for production.
+13. Run command "php artisan serve" to start php server which will run laravel.
