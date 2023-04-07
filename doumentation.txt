@@ -1,0 +1,12 @@
+1. Server Requirements: https://laravel.com/docs/10.x/deployment#server-requirements
+2. Install php package manager Composer : Please install latest version of composer from https://getcomposer.org
+3. This project is using Laravel version 10.x. https://laravel.com/docs/10.x
+4. Install Node.js : Please install latest version of Node.js from: https://nodejs.org
+5. Open terminal or command prompt with installation directory/folder.
+6. Install PHP dependencies: "composer install"
+7. Create new ".env" file from copying ".env.example"
+8. Generate laravel app key "php artisan key:generate"
+9. Install node dependencies: "npm install"
+10. Run command "npm run dev" to start tailwind css development.
+11. Run command "npm run build" to build for production.
+12. Run command "php artisan serve" to start php server which will run laravel.
