@@ -27,7 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::post('generate-shorten-link', [ShortLinkController::class, 'store'])->name('generate.shorten.link.post');
-    Route::get('shlnk/{code}', [ShortLinkController::class, 'shortenLink'])->name('shorten.link');
+    Route::get('slk/{code}', [ShortLinkController::class, 'shortenLink'])->name('shorten.link');
 });
 
 require __DIR__.'/auth.php';
